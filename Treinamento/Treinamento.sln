@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfocusConsole", "InterfocusConsole\InterfocusConsole.csproj", "{24D26E38-360B-49A4-96AA-C44424718E11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfocusConsole", "InterfocusConsole\InterfocusConsole.csproj", "{24D26E38-360B-49A4-96AA-C44424718E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinamentoAPI", "TreinamentoAPI\TreinamentoAPI.csproj", "{61D2AABF-064C-49B1-8F62-C5CCEE541D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinamentoAPI", "TreinamentoAPI\TreinamentoAPI.csproj", "{3637E414-F8C5-49BE-B71A-97DE61B90C30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,17 @@ Global
 		{24D26E38-360B-49A4-96AA-C44424718E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D26E38-360B-49A4-96AA-C44424718E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24D26E38-360B-49A4-96AA-C44424718E11}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{3637E414-F8C5-49BE-B71A-97DE61B90C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3637E414-F8C5-49BE-B71A-97DE61B90C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3637E414-F8C5-49BE-B71A-97DE61B90C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3637E414-F8C5-49BE-B71A-97DE61B90C30}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{61D2AABF-064C-49B1-8F62-C5CCEE541D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D2AABF-064C-49B1-8F62-C5CCEE541D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D2AABF-064C-49B1-8F62-C5CCEE541D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D2AABF-064C-49B1-8F62-C5CCEE541D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

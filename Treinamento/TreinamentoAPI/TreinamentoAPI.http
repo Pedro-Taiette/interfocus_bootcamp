@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+@TreinamentoAPI_HostAddress = http://localhost:5164
+
+GET {{TreinamentoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+=======
+@TreinamentoAPI_HostAddress = http://0.0.0.0:5188
+>>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
+
+###
