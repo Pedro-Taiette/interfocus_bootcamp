@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace InterfocusConsole.Services
+namespace InterfocusConsole
 {
     public class AlunoService
     {
@@ -73,31 +73,18 @@ namespace InterfocusConsole.Services
         public Aluno Editar(Aluno aluno)
         {
             var existente = ConsultarPorCodigo(aluno.Codigo);
-<<<<<<< HEAD:Treinamento/InterfocusConsole/Services/AlunoService.cs
-=======
 
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89:Treinamento/InterfocusConsole/AlunoService.cs
             if (existente == null)
             {
                 return null;
             }
-<<<<<<< HEAD:Treinamento/InterfocusConsole/Services/AlunoService.cs
-
-=======
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89:Treinamento/InterfocusConsole/AlunoService.cs
             existente.Nome = aluno.Nome;
             return existente;
         }
 
-<<<<<<< HEAD:Treinamento/InterfocusConsole/Services/AlunoService.cs
-        public Aluno Deletar(string Codigo)
-        {
-            var existente = ConsultarPorCodigo(Codigo);
-=======
         public Aluno Deletar(string codigo)
         {
             var existente = ConsultarPorCodigo(codigo);
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89:Treinamento/InterfocusConsole/AlunoService.cs
             list.Remove(existente);
             return existente;
         }

@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 using InterfocusConsole;
 
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,11 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-<<<<<<< HEAD
-=======
 builder.Services.AddTransient<AlunoService>();
 
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,4 @@
 ﻿using InterfocusConsole;
-using InterfocusConsole.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TreinamentoAPI.Controllers

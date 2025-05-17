@@ -4,13 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-<<<<<<< HEAD
-      "applicationUrl": "http://localhost:47833",
-      "sslPort": 44335
-=======
       "applicationUrl": "http://0.0.0.0:37369",
       "sslPort": 44397
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
     }
   },
   "profiles": {
@@ -19,11 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-<<<<<<< HEAD
-      "applicationUrl": "http://localhost:5164",
-=======
       "applicationUrl": "http://0.0.0.0:5188",
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -33,11 +24,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-<<<<<<< HEAD
-      "applicationUrl": "https://localhost:7272;http://localhost:5164",
-=======
       "applicationUrl": "https://0.0.0.0:7185;http://0.0.0.0:5188",
->>>>>>> 0e8221c2a7057d5e8f229c246c3327a289f5ed89
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
